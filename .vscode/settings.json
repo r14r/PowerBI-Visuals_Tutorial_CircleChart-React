@@ -1,0 +1,61 @@
+{
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "files.eol": "\n",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true,
+        ".tmp": true
+    },
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": false,
+        "**/.hg": false,
+        "**/CVS": false,
+        "**/.DS_Store": false,
+        "**/Thumbs.db": false,
+        ".tmp": false,
+        "**/node_modules": false,
+        "**/assets": false,
+        "package-lock.json": false
+    },
+    "files.associations": {
+        "*.resjson": "json"
+    },
+    "search.exclude": {
+        ".tmp": true,
+        "typings": true
+    },
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/pbiviz.json"
+            ],            
+            "url": "./node_modules/powerbi-visuals-api/schema.pbiviz.json"
+        },
+        {
+            "fileMatch": [
+                "/capabilities.json"
+            ],            
+            "url": "./node_modules/powerbi-visuals-api/schema.capabilities.json"
+        },
+        {
+            "fileMatch": [
+                "/dependencies.json"
+            ],            
+            "url": "./node_modules/powerbi-visuals-api/schema.dependencies.json"
+        }        
+    ],
+    "explorerExclude.backup": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".tmp": true,
+        "**/node_modules": true,
+        "**/assets": true,
+        "package-lock.json": true
+    }
+}
